@@ -1,0 +1,13 @@
+.card-demo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: bisque;
+}
+
+@media (max-width: 480px) {
+  .card-demo {
+    border-radius: 10px;
+  }
+}
